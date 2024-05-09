@@ -1,0 +1,73 @@
+body {
+    background-color: pink; /* Sayfa arka plan rengi */
+}
+.container {
+    background-color: black;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center; /* İçeriği merkezlemek için */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: black; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 10px; /* Yazı etrafındaki boşluk */
+}
+
+#taskInput {
+    width: calc(100% - 40px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.eklebutonu button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #f57aa7;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#taskList li {
+    background-color: #3f2c2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#taskList li:last-child {
+    border-bottom: none;
+}
+
+.deneme {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.deneme:hover {
+    background-color: #f44336;
+}

@@ -1,0 +1,46 @@
+.container {
+    max-width: 252px;
+    margin: 0 auto;
+   
+}
+input[type="text"] {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+}
+.esittir{
+    margin-left: 250px;
+    height: 50%;
+}
+button#silme {
+    background-color: red;
+}
+button#equals{
+    background-color: blue;
+    color: white;
+}
+button#silme {
+    color: white; /* AC (clear) butonunun içindeki yazı rengini beyaz olarak ayarlar */
+}
+button#arti {
+ color: blue;   
+}
+button#eksi {
+    color: blue;
+}
+button#carpim{
+    color: blue;
+}
+button#bölüm{
+    color: blue;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Uygulaması</title>
+    <link rel="stylesheet" href="rehber.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Rehber Uygulaması</h1>
+        </div>
+        <div class="inputContainer">
+            <div class="ad">
+                <h4>Ad</h4>
+                <input type="text" id="adInput">
+            </div>
+            <div class="soyad">
+                <h4>Soyad</h4>
+                <input type="text" id="soyadInput">
+            </div>
+            <div class="telefon">
+                <h4>Telefon</h4>
+                <input type="tel" id="telefonInput">
+            </div>
+            <div class="email">
+                <h4>Email</h4>
+                <input type="email" id="emailInput">
+            </div>
+        </div>
+        <div class="Buton">
+            <button id="kaydetButon">Kaydet</button>
+            <button id="siralaButon">Alfabetik Sırala</button>
+        </div>
+    </div>
+    <div class="kaydedilenBölüm">
+        <h2>Kaydedilen Kişiler</h2>
+        <div id="kayitlar"></div>
+    </div>
+    <script src="rehber.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çoklu Resim Ekleme</title>
+<link rel="stylesheet" href="cokluResim.css">
+</head>
+<body>
+  <div class="arkaPlan">
+<div class="container">
+  <input type="file" id="fileInput" multiple>
+  <div id="slideshow-container">
+    <!-- Resimler buraya eklenecek -->
+  </div>
+  <button id="prev" onclick="plusSlides(-1)">&#10094;</button>
+  <button id="next" onclick="plusSlides(1)">&#10095;</button>
+  <div class="thumbnails-container" id="thumbnails"></div>
+</div>
+</div>
+<script src="cokluResim.js"></script>
+</body>
+</html>

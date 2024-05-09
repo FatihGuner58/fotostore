@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    margin-left: 0px;
+    background-color: rgb(222, 154, 26);
+}
+
+.inputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column; /* Inputları alt alta sıralamak için sütun yönlendirmesi */
+}
+
+.ad,
+.soyad,
+.email {
+    flex: 1;
+    width: 100%; /* Inputların genişliğini doldurması için */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 20px); /* 20 piksel boşluk bırakarak genişliği ayarla */
+    height: calc(30px);
+}
+
+.Buton {
+    display: flex;
+    gap: 30px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.kaydedilenBölüm {
+    margin-top: 20px;
+    background-color: blanchedalmond;
+}
+
+#kayitlar {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.kayit {
+    margin-bottom: 10px;
+}
+
+.kayit p {
+    margin: 5px 0;
+}
+#kaydetButon{
+    margin-top: 10px;
+    background-color: rgb(26, 124, 209);
+    width: 100%;
+    height: 40px;
+}
+#siralaButon{
+    margin-top: 10px;
+    background-color: rgb(26, 124, 209);
+    width: 100%;
+    height: 40px;
+}
+.telefon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+}

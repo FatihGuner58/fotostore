@@ -1,0 +1,55 @@
+.container{
+    text-align: center;
+}
+.inputlar{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    
+}
+#çevirButonu{
+    background-color: black;
+    color: white;
+    width: 465px;
+    height: 30px;
+}
+.dropdown {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 1000px;
+    width: 750px;
+   }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+#cevirmeİconu{
+    margin-left: 19px;
+    margin-right: 19px;
+}
+#language-selection {
+    display: inline-block;
+    position: relative;
+}
+#language-selection2 {
+    display: inline-block;
+    position: relative;
+}
+#girilenBölüm{
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: 230px;
+    padding-bottom: 250px;
+}
+#sonuc{
+    width: 230px;
+    padding-bottom: 250px;
+    display: inline-block;
+    position: relative;
+}

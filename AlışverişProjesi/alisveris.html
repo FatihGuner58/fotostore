@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ürün Ekleme ve Sepete Ekleme</title>
+<link rel="stylesheet" href="alis.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Sol taraf -->
+  <div class="left-side">
+    <h2>Ürün Ekle</h2>
+    <div class="input-container"> 
+      <input type="text" id="inputText" placeholder="Ürün adı giriniz"> <!-- Ürün giriş alanı -->
+      <button onclick="addItem()">Ekle</button> <!-- Ürün ekleme butonu -->
+    </div>
+    <!-- Ürünler listesi -->
+    <div class="list-container" id="productList"> <!-- Ürünler listesini gruplar -->
+      <!-- Ürünler buraya eklenecek -->
+    </div>
+  </div>
+
+  <!-- Sağ taraf -->
+  <div class="right-side">
+    <h2>Sepete Eklenenler</h2> <!-- Sağ taraf başlığı -->
+    <div class="list-container"> <!-- Sepet listesini gruplar -->
+      <ul id="cartItems"> <!-- Sepet öğeleri listesi -->
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="editModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <input type="text" id="editMarka" placeholder="Ürün markası">
+    <input type="text" id="editAdet" placeholder="Ürün adedi">
+    <input type="text" id="editAdı" placeholder="Ürün adı">
+    <input type="text" id="editRenk" placeholder="Ürün rengi">
+    <button id="kaydetButton" onclick="saveEdit()">Kaydet</button>
+  </div>
+</div>
+
+<script src="alisveriss.js"></script>
+</body>
+</html>
